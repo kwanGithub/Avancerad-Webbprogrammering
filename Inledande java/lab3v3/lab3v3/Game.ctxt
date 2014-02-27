@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ printWelcome()
+comment0.text=\r\n\ Staring\ message\r\n
+comment1.params=
+comment1.target=void\ start()
+comment1.text=\r\n\ This\ is\ method\ starts\ the\ game\ process\ \r\n
+comment2.params=
+comment2.target=void\ stats()
+comment2.text=\r\n\ To\ analyzes\ the\ game\ session.\r\n
+numComments=3

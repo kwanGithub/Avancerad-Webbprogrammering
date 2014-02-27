@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=numbers\ value\ lessThan\ equal\ moreThan
+comment0.target=java.util.ArrayList\ selectNumbers(java.util.ArrayList,\ int,\ boolean,\ boolean,\ boolean)
+comment0.text=\r\n\ Selects\ numbers\ that\ match\ the\ given\ criteria\ and\ returns\ the\ result.<br>\r\n\ \r\n\ Example\:<br>\r\n\ numbers\:\ 22,\ 11,\ 6,\ 43,\ 13,\ 7,\ 9<br>\r\n\ value\:\ 9<br>\r\n\ lessThan\:\ true<br>\r\n\ equal\:\ true<br>\r\n\ moreThan\:\ false<br>\r\n\ returns\ a\ ArrayList\ that\ contains\:\ 6,\ 7,\ 9<br>\r\n\ \r\n\ @param\ numbers\ the\ numbers\ we\ are\ matching\ the\ criteria\ against\ \r\n\ @param\ value\ the\ number\ we\ are\ matching\ the\ other\ numbers\ against\r\n\ @param\ lessThan\ true\ if\ all\ numbers\ less\ than\ value\ should\ be\ returned\ \r\n\ @param\ equal\ true\ if\ all\ numbers\ equal\ to\ value\ should\ be\ returned\r\n\ @param\ moreThan\ true\ if\ all\ numbers\ more\ than\ value\ should\ be\ returned\r\n\ @return\ all\ numbers\ that\ match\ the\ criteria\r\n
+numComments=1

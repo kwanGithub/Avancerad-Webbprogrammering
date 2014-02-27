@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=country\ capital
+comment0.target=CreateQuestion(java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ To\ create\ a\ new\ question.\r\n\ A\ question\ must\ be\ associated\ to\ a\ {country,\ capital}\r\n\ \r\n\ @param\ Country\ is\ the\ country\ name\r\n\ @param\ captial\ is\ the\ countrys\ capital\r\n
+comment1.params=
+comment1.target=java.lang.String\ getCapital()
+comment1.text=\r\n\ @return\ Capital\ returns\ name\ of\ the\ Capital\r\n
+comment2.params=
+comment2.target=java.lang.String\ getCountry()
+comment2.text=\r\n\ @return\ coutyir\ returns\ name\ of\ the\ Country\r\n
+numComments=3

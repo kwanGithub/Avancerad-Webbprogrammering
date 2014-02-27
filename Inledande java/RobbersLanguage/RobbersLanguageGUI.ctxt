@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=RobbersLanguageGUI()
+comment0.text=\r\n\ Constructs\ a\ RobbersLanguageGUI\r\n
+comment1.params=
+comment1.target=void\ initializeGUI()
+comment1.text=\r\n\ Constructs\ the\ GUI\r\n
+comment2.params=ae
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=
+comment3.target=void\ translate()
+comment3.text=\r\n\ Match\ numbers\ to\ the\ criteria\ and\ displays\ the\ result\r\n
+numComments=4

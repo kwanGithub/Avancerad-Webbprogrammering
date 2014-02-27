@@ -1,0 +1,194 @@
+/*---------------Sid Struktur-------------------------------------------*/
+#wrapper
+{	
+
+	width: 960px;				/*bestämmer ramen/strukturen på sidan*/
+	height: 1500px;
+	font-family: comic sans MS;	
+	margin: 0 auto;
+	
+}
+
+
+}
+#banner 						
+{
+	text-align: center;
+	
+}
+#banner2
+{
+	padding-left: 180px;
+}
+nav 
+{
+	text-align: center;				/*Navidgeringsbaren */
+	background-color: green;
+	
+	
+}
+nav a
+{
+	text-decoration: none;
+	font-family: backyardigans;		/*Denna font visas endast om man har fonten lokalt*/
+	font-size: 1.5em;
+	color: #FFE600;
+	margin-left: 20px;
+}
+nav a:hover
+{
+	background-color: #FF6600;
+}
+@font-face 				/*Implentation utav ett lokalt typsnitt*/
+{
+	font-family: backyardigans;
+	src:url(fonts/font.otf);
+}
+h3
+{
+	font-family: backyardigans;
+}
+#intro img
+{
+	height:220px;
+	width: 270px;
+}
+#indexbild
+{
+	float: left;
+}
+#indexbild2
+{
+	float: right;
+}
+#indexbild3
+{
+	padding-left: 330px;
+}
+/*---------------Sid Struktur-------------------------------------------*/
+/*---------------Hem----------------------------------------------------*/
+#intro
+{
+
+}
+#intro img           	/*Bilden på toppen utav sidan*/
+{
+
+}
+/*---------------Hem---------------------------------------------------*/
+
+
+/*---------------Karaktärer---------------------------------------------*/
+#pablo, #tyrone, #uniqua, #tasha, #austin
+{
+	
+	float:left;			/*Karaktärs div */
+	width: 144px;
+	padding-left: 25px;
+	padding-right: 5px;
+	height:1200px; 
+}
+#tyrone img, #uniqua img, #austin img /*storlek för bilderna*/
+{
+	height:150px;
+	width: 144px;
+}
+#tasha img, #pablo img
+{
+
+	height:150px;
+	width: 144px;
+}
+#tyrone h3  			/*Text färg för karaktärerna*/
+{
+	color:#FFA500;
+
+}
+#pablo h3
+{
+	color:#003F87;
+}
+#uniqua h3
+{
+	color:#D4318C;
+}
+#austin h3
+{
+	color:#7A378B;
+}
+#tasha h3
+{
+	color:#FFD700;
+}
+
+
+/*---------------Karaktärer---------------------------------------------*/
+
+
+/*---------------Bilder-------------------------------------------------*/
+.bilder img
+{
+	border-style: none;
+}
+
+#austinkarak, #uniquakarak
+{
+	height:150px;
+	width: 150px;
+}
+
+#tashakarak, #pablokarak
+{
+	height:180px;
+	width: 170px;
+}
+.bilder2 img
+
+{
+	padding-left: 130px;
+	height: 280px; 
+	width: 280px;
+	border-style: none;
+}
+.bilder
+{
+	text-decoration: none;
+}
+
+.images
+{
+	
+	padding-left: 10px;
+}
+
+.images img
+{	
+	padding-top: 100px;
+	height: 230px; 
+	width: 220px;
+}
+.images2 img
+{	
+	height: 230px; 
+	width: 220px;
+	padding-left: 45px;
+}
+/*---------------Bilder-------------------------------------------------*/
+
+/*---------------Episoder-----------------------------------------------*/
+#video , #video p
+{
+	font-family: backyardigans;
+	text-align: center;
+	
+}
+
+
+/*---------------Episoder-----------------------------------------------*/
+
+/*---------------Kontak-------------------------------------------------*/
+
+
+
+
+/*---------------Kontak-------------------------------------------------*/

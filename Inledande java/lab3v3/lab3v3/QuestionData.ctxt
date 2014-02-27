@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=QuestionData()
+comment0.text=\r\n\ To\ initialized\ the\ questions\ utility.\r\n
+comment1.params=
+comment1.target=void\ fillQuestions()
+comment1.text=\r\n\ To\ populate\ the\ List\ with\ questions.\r\n
+comment2.params=
+comment2.target=void\ shufflecountryCaptial()
+comment2.text=\r\n\ Shuffles\ the\ ArrayList\ so\ that\ we\ may\ have\ random\ questions\r\n
+comment3.params=
+comment3.target=int\ getcountryCapital()
+comment3.text=\r\n\ @return\ countryCaptil\ list\ size\ \r\n
+numComments=4

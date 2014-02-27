@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=i
+comment0.target=void\ askQuestion(int)
+comment0.text=\r\n\ \r\n\ Ask\ a\ question\ to\ the\ user.\r\n\ @param\ i\ is\ same\ i\ from\ the\ for\ loop\ i\ >\ nbOfQuestions.\ \r\n
+comment1.params=
+comment1.target=void\ userNumberOfQuestions()
+comment1.text=\r\n\ To\ ask\ the\ user\ to\ choose\ the\ number\ of\ questions\ he\ would\ like.\r\n
+comment2.params=
+comment2.target=int\ getNbCorrectAnswers()
+comment2.text=\r\n\ @return\ the\ number\ of\ correct\ answers.\r\n
+comment3.params=
+comment3.target=void\ resetNbCorrectAnswers()
+comment3.text=\r\n\ This\ resets\ the\ number\ of\ correct\ answers.\r\n\ This\ has\ to\ be\ called\ before\ starting\ a\ new\ game.\r\n
+comment4.params=
+comment4.target=int\ getnbOfQuestions()
+comment4.text=\r\n\ @reurn\ nbOfQuestions\ number\ of\ questions\r\n
+numComments=5
