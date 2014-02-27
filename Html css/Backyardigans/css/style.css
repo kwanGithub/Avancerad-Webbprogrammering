@@ -1,0 +1,265 @@
+/************************* SID STRUKTUR *************************************/
+
+/****** Ställer om alla marginaler till 0 ******/
+*
+{
+	margin:  			0;
+	padding: 			0;
+}
+
+body
+{
+	background-color: 	#FFFFFF;
+	font: 				14pt "comic sans MS", Helvetica, sans-serif, arial;	
+	background-image: url(../bilder/background.jpg);
+	background-size: 	100%;
+	height: 			100%;
+	margin: 			auto;
+}
+
+#wrapper
+{	
+	width: 				960px;				
+	height: 			1050px;
+	margin: 			2% auto;
+	background-color: 	#FFFFFF;
+	border:  			solid green;
+	bottom: auto;
+	float: none;
+	font-family: 		"comic sans MS", Helvetica, sans-serif, arial;	
+}
+
+#header
+{
+	width: 				70%;
+	height:				auto;
+	margin: 			auto;
+}
+/****** Navigationsbar ******/
+nav 
+{
+	width: 				66%;
+	height: 			auto;
+	text-align: 		center;	
+	float: 				none;			
+	background-color: 	green;
+	margin: 			0 auto;			/*top**right**bottom**left*/
+}
+
+nav a
+{
+	text-decoration: 	none;
+	font-family: 		"backyardigans", "comic sans MS", Helvetica, sans-serif, arial;	/*Denna font visas endast om man har fonten lokalt*/
+	font-size: 			1.5em;
+	color: 				#FFE600;
+	margin: 			0 auto;
+	padding:	 		0 1% 0 1%;		/*top**right**bottom**left*/	
+}
+
+nav a:hover
+{
+	background-color: 	#FF6600;
+}
+
+@font-face 				/*Implentation utav ett lokalt typsnitt*/
+{
+	font-family: 		backyardigans;
+	src:				url(../fonts/font.otf);
+}
+
+/****** Rubriker ******/
+h1, h2, h3
+{
+	font-family: 		"backyardigans", "comic sans MS", Helvetica, sans-serif, arial;
+	font-size: 			1.3em;
+}
+
+footer 
+{
+	font-size:			0.8em;
+ 	color:				#FFFF99;
+    text-align: 		center;
+}
+/************************* SID STRUKTUR END *************************************/
+
+/**************************** HEM *******************************************/
+
+
+#indexbottompics
+{
+	margin: 			12% 0% 0% 25%;		/*top**right**bottom**left*/
+}
+
+#intro 
+{	
+	width: 				65%;
+	height: 			auto;
+	margin:				4% 0 0 17.5%;		/*top**right**bottom**left*/
+}
+
+/**************************** HEM END *******************************************/
+
+
+/************************** KARAKTÄRER **************************************/
+
+/****** Kolumner ******/
+.karaktersleft
+{
+	width: 				11.5%;
+	height: 			auto;	
+	float: 				left;
+	margin:		 		4% 0 0 19%;			/*top**right**bottom**left*/
+}
+
+
+.karaktersright
+{
+	width:			 	11.5%;
+	height: 			auto;	
+	float: 				right;
+	margin: 			4% 20% 0 0;			/*top**right**bottom**left*/
+}
+
+.karakters
+{
+	margin-bottom: 		5%;
+	
+}
+
+#gang
+{
+	float: 				left;
+	margin-left: 		1.7%;
+	margin-top: 		4%;
+}
+
+.karak
+{	
+	width: 				35%;
+	margin:	 			4% 0 0 18%;			/*top**right**bottom**left*/
+}
+
+.karakpic 
+{
+	width: 				25%;
+	height: 			35%;
+	float: 				right;
+	margin: 			2% 14% 0 0;			/*top**right**bottom**left*/
+}
+
+.backlink
+{
+	margin: 			2% 0 0 18%;			/*top**right**bottom**left*/
+	float: 				left;
+}
+
+.karaklinkcolor
+{
+  display: 				inline-block;
+  margin: 				1% 2% 2% 2%;		/*top**right**bottom**left*/
+  line-height: 0;
+  
+}
+
+.karaklinkcolor:hover 
+{
+  border: 				5px solid #FF9900;
+}
+
+.bottompics img
+{
+	margin: 			4% 0 0 0;			/*top**right**bottom**left*/
+}
+
+/************************** KARAKTÄRER END **************************************/
+
+
+/************************** BILDGALLERI *************************************/
+
+.image-row 
+{
+    margin-bottom: 		20px;
+}
+
+.image-set
+{
+	width: 				65%;
+	margin:	 			4% 0 0 18%;			/*top**right**bottom**left*/
+}
+
+.image-set img
+{
+	padding-bottom: 	2%;
+}
+
+/************************** BILDGALLERI END *************************************/
+
+/************************** YOUTUBE *****************************************/
+#youtube
+{
+	text-align: 		center;
+	margin-top: 		4%;
+	
+}
+
+/************************** YOUTUBE END *****************************************/
+
+/************************** KONTAKT *****************************************/
+#kontakt p
+{
+	text-align: 		center;
+	width:		 		50%;
+	margin-left: 		25%;
+	font-family: 		"comic sans MS", Helvetica, sans-serif, arial;
+	margin-top: 		4%;
+}
+
+form 
+{
+	margin:				0 auto;
+	width:				40%;
+	font-family: 		"comic sans MS", Helvetica, sans-serif, arial;
+}
+
+label 
+{
+	display: 			block;
+	margin-top: 		7%;
+}
+
+input, textarea 
+{
+	width: 				100%;
+	background: 		#efefef;
+	border: 			1px solid #ddd;
+	font-size: 			0.9em;
+	color: 				black;
+	height: 			4%;
+	padding: 			3%;
+	margin-top: 		2%;
+}
+
+textarea 
+{
+	height: 			220px;
+}
+
+
+input:focus, textarea:focus 
+{
+	border:				1px solid #FF6600;
+}
+
+/** Knappen submit: bilder och storlek för knappen bestäms här; **/
+#submit 
+{
+	width:				25%;
+	height:				auto;
+	background:			url("../bilder/galleri/send_btn.png");
+	text-indent:		-9999px;
+	border:				none;
+	margin-top:			5%;
+	cursor:				pointer;
+}
+
+/************************** KONTAKT END *****************************************/

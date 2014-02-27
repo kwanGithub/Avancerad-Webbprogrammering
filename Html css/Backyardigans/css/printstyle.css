@@ -1,0 +1,198 @@
+/************ PRINT STYLE *************/
+
+/************************* SID STRUKTUR *************************************/
+
+/****** Ställer om alla marginaler till 0 ******/
+*
+{
+	margin:  			0;
+	padding: 			0;
+}
+
+body
+{
+	background-color: 	#FFFFFF;
+	font: 				12pt Georgia, "Times New Roman", Times, serif; 	
+	color:				black;
+
+}
+
+#wrapper
+{	
+	width: 				960px;				
+	height: 			1050px;
+	margin: 			2% auto;
+	background-color: 	#FFFFFF;
+	float: none;
+	font-family: 		Georgia, "Times New Roman", Times, serif;	
+}
+
+#header
+{
+	width: 				70%;
+	height:				auto;
+	margin: 			auto;
+}
+/****** Navigationsbar ******/
+nav { display:none; }
+
+nav a { display:none; }
+
+
+/****** Rubriker ******/
+h1, h2, h3
+{
+	font-family: 		Georgia, "Times New Roman", Times, serif;
+	font-size: 			1.3em;
+}
+
+footer { display:none; }
+
+/************************* SID STRUKTUR END *************************************/
+
+/**************************** HEM *******************************************/
+
+
+#indexbottompics
+{
+	margin: 			12% 0% 0% 25%;		/*top**right**bottom**left*/
+}
+
+#intro 
+{	
+	width: 				65%;
+	height: 			auto;
+	margin:				4% 0 0 17.5%;		/*top**right**bottom**left*/
+}
+
+/**************************** HEM END *******************************************/
+
+
+/************************** KARAKTÄRER **************************************/
+
+/****** Kolumner ******/
+.karaktersleft
+{
+	width: 				11.5%;
+	height: 			auto;	
+	float: 				left;
+	margin:		 		4% 0 0 19%;			/*top**right**bottom**left*/
+}
+
+
+.karaktersright
+{
+	width:			 	11.5%;
+	height: 			auto;	
+	float: 				right;
+	margin: 			4% 20% 0 0;			/*top**right**bottom**left*/
+}
+
+.karakters
+{
+	margin-bottom: 		5%;
+	
+}
+
+#gang
+{
+	float: 				left;
+	margin-left: 		1.7%;
+	margin-top: 		4%;
+}
+
+.karak
+{	
+	width: 				35%;
+	margin:	 			4% 0 0 18%;			/*top**right**bottom**left*/
+}
+
+.karakpic 
+{
+	width: 				25%;
+	height: 			35%;
+	float: 				right;
+	margin: 			2% 14% 0 0;			/*top**right**bottom**left*/
+}
+
+.backlink
+{
+	margin: 			2% 0 0 18%;			/*top**right**bottom**left*/
+	float: 				left;
+}
+
+.karaklinkcolor
+{
+  display: 				inline-block;
+  margin: 				1% 2% 2% 2%;		/*top**right**bottom**left*/
+  line-height: 0;
+  
+}
+
+.karaklinkcolor:hover {display: none;}
+
+.bottompics img
+{
+	margin: 			4% 0 0 0;			/*top**right**bottom**left*/
+}
+
+/************************** KARAKTÄRER END **************************************/
+
+
+/************************** BILDGALLERI *************************************/
+
+.image-row 
+{
+    margin-bottom: 		20px;
+}
+
+.image-set
+{
+	width: 				65%;
+	margin:	 			4% 0 0 18%;			/*top**right**bottom**left*/
+}
+
+.image-set img
+{
+	padding-bottom: 	2%;
+}
+
+/************************** BILDGALLERI END *************************************/
+
+/************************** YOUTUBE *****************************************/
+#youtube  {display: none;}
+
+
+/************************** YOUTUBE END *****************************************/
+
+/************************** KONTAKT *****************************************/
+#kontakt p
+{
+	text-align: 		center;
+	width:		 		50%;
+	margin-left: 		25%;
+	font-family: 		Georgia, "Times New Roman", Times, serif;
+	margin-top: 		4%;
+}
+
+form 
+{
+	margin:				0 auto;
+	width:				40%;
+	font-family: 		Georgia, "Times New Roman", Times, serif;
+}
+
+label 
+{
+	display: 			block;
+	margin-top: 		7%;
+}
+
+
+
+
+/** Knappen submit: bilder och storlek för knappen bestäms här; **/
+#submit   {display: none;}
+
+
+/************************** KONTAKT END *****************************************/
